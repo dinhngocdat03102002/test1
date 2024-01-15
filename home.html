@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="UTF-8"http-equiv="encoding">
+  <title>Educational level</title>
+</head>
+<body>
+
+  <h1>Educational level in some country</h1>
+
+  <div>
+    <label for="educational-level"><strong>Educational level:</strong></label>
+    <select id="educational-level">
+      <option value="" selected>All Ages</option>
+      <option value="1">Primary Ages</option>
+      <option value="2">Secondary Ages</option>
+      <option value="3">Upper Secondary Ages</option>
+    </select>
+  </div>
+
+  <main>    
+    <section>
+      <h3>Continent Distribution</h3>
+      <svg id="continent"></svg>
+    </section>
+    <section>
+      <h3>Age Histogram</h3>
+      <svg id="Age"></svg>
+    </section>
+  </main>
+
+<script src="https://d3js.org/d3.v7.min.js"charset="utf-8"> </script>
+<link href="./style.css" rel ="stylesheet"/>
+
+</body>
+</html>
